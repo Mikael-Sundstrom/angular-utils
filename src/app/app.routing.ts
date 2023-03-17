@@ -14,7 +14,7 @@ const Error404 = {
 const routes: Routes = [
 	{
 		path: '',
-		redirectTo: '',
+		redirectTo: 'resize-observer',
 		pathMatch: 'full'
 	},
 	{
