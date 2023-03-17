@@ -4,7 +4,7 @@
 	"scripts": {
 		"ng": "ng",
 		"start": "ng serve",
-		"build": "ng build",
+		"build": "ng build --base-href=https://mikael-sundstrom.github.io/angular-utils/",
 		"build-resize-observer": "ng-packagr -p ./projects/resize-observer/ng-package.json",
 		"build-prism": "ng-packagr -p ./projects/prism/ng-package.json",
 		"watch": "ng build --watch --configuration development"
