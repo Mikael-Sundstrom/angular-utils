@@ -1,0 +1,30 @@
+{
+	"name": "@mikael-sundstrom/resize-observer",
+	"version": "1.0.0",
+	"description": "Angular directive to detect changes of an element size.",
+	"main": "index.js",
+	"scripts": {
+		"test": "npm link",
+		"publish": "npm publish --access public"
+	},
+	"keywords": [
+		"Angular",
+		"ResizeObsever",
+		"Resize",
+		"Obsever"
+	],
+	"peerDependencies": {
+		"@angular/common": ">= 15",
+		"@angular/core": ">= 15"
+	},
+	"author": {
+		"name": "Mikael Sundström",
+		"email": "mikaelsundstrom@outlook.com"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/Mikael-Sundstrom/angular-utils/projects/resize-observer/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Mikael-Sundstrom/angular-utils"
+	}
+}

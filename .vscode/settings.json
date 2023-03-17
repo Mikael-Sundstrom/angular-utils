@@ -1,0 +1,21 @@
+{
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/.gitkeep": true,
+		"**/main.ts": true,
+		"**/index.html": true,
+		"node_modules": true,
+		"tsconfig*": true,
+		"README.md": true,
+		"package-lock.json": true,
+		"angular.json": false,
+		".gitignore": true,
+		".angular": true,
+		".vscode": true
+	}
+}
