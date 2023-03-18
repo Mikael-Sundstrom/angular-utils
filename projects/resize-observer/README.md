@@ -2,7 +2,7 @@
 ![GitHub](https://img.shields.io/github/license/Mikael-Sundstrom/angular-utils)
 ![npm](https://img.shields.io/npm/dt/@mikael-sundstrom/resize-observer)
 ![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/Mikael-Sundstrom/angular-utils)
-
+![npm peer dependency version](https://img.shields.io/npm/dependency-version/@mikael-sundstrom/resize-observer/peer/@angular/core)
 <br>
 
 ## Install the library

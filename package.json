@@ -5,7 +5,7 @@
 	"scripts": {
 		"start": "ng serve",
 		"build-github-pages": "ng build --base-href='https://mikael-sundstrom.github.io/angular-utils/' && cd ./dist && cp index.html 404.html",
-		"build-resize-observer": "ng-packagr -p ./projects/resize-observer/ng-package.json"
+		"build-resize-observer": "ng-packagr -p ./projects/resize-observer/ng-package.json && cd ./projects/resize-observer && npm publish --access public && cd ./../../"
 	},
 	"homepage": "https://github.com/Mikael-Sundstrom/angular-utils/",
 	"private": true,
