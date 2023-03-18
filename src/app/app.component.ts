@@ -16,7 +16,7 @@ declare const M: any
 				</div>
 			</nav>
 			<ul id="slide-out" class="sidenav sidenav-fixed">
-				<img [src]="angularTypescript">
+				<img [src]="angularTypescript" alt="logo">
 				<li *ngFor="let link of navLinks">
 				<a class="waves-effect" routerLink="{{link.route}}"><i class="{{link.icon_set}}">{{link.icon}}</i>{{link.title}}</a>
 
