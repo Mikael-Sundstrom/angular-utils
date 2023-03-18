@@ -22,9 +22,9 @@
 		"email": "mikaelsundstrom@outlook.com"
 	},
 	"license": "MIT",
-	"homepage": "https://github.com/Mikael-Sundstrom/angular-utils/projects/resize-observer/README.md",
+	"homepage": "https://github.com/Mikael-Sundstrom/angular-utils/",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Mikael-Sundstrom/angular-utils"
+		"url": "https://github.com/Mikael-Sundstrom/angular-utils/blob/master/projects/resize-observer/README.md"
 	}
 }
