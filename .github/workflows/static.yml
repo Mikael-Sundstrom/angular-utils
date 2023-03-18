@@ -22,6 +22,10 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  run-npm-build:
+    runs-on: ubuntu-latest
+    steps:
+      - run npm build
   # Single deploy job since we're just deploying
   deploy:
     environment:
@@ -29,7 +33,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - run: ng build --base-href='https://mikael-sundstrom.github.io/angular-utils/'
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages
