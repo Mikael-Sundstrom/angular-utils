@@ -25,8 +25,8 @@ jobs:
   run-npm-build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: build app
+      - uses: actions/checkout@v3
+      - name: rebuild dist folder
         run: |
           npm install
           npm run build

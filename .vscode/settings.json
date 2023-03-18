@@ -6,16 +6,16 @@
 		"**/CVS": true,
 		"**/.DS_Store": true,
 		"**/Thumbs.db": true,
-		"**/.gitkeep": true,
-		"**/main.ts": true,
-		"**/index.html": true,
+		"**/.gitkeep": false,
+		"**/main.ts": false,
+		"**/index.html": false,
 		"node_modules": true,
-		"tsconfig*": true,
-		"README.md": true,
-		"package-lock.json": true,
+		"tsconfig*": false,
+		"README.md": false,
+		"package-lock.json": false,
 		"angular.json": false,
 		".gitignore": false,
-		".angular": true,
-		".vscode": true
+		".angular": false,
+		".vscode": false
 	}
 }

@@ -1,3 +1,4 @@
+![workflow](https://github.com/Mikael-Sundstrom/angular-utils/actions/workflows/static.yml/badge.svg)
 # AngularUtils
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
