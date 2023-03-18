@@ -14,8 +14,9 @@
 		"README.md": false,
 		"package-lock.json": false,
 		"angular.json": false,
-		".gitignore": false,
-		".angular": false,
-		".vscode": false
+		".github": true,
+		".gitignore": true,
+		".angular": true,
+		".vscode": true
 	}
 }

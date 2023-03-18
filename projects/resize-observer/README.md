@@ -1,8 +1,9 @@
 # Angular Resize Event
+![GitHub](https://img.shields.io/github/license/Mikael-Sundstrom/angular-utils)
+![npm](https://img.shields.io/npm/dt/@mikael-sundstrom/resize-observer)
+![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/Mikael-Sundstrom/angular-utils)
 
-[![github version](https://img.shields.io/github/package-json/v/Mikael-Sundstrom/angular-utils/master?label=github&style=flat-square)](https://github.com/Mikael-Sundstrom/angular-utils)&nbsp; [![npm version](https://img.shields.io/npm/v/@mikael-sundstrom/resize-observer?style=flat-square)](https://www.npmjs.com/package/@mikael-sundstrom/resize-event)&nbsp; [![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/Mikael-Sundstrom/angular-utils?style=flat-square)](https://snyk.io/test/github/Mikael-Sundstrom/angular-utils)
-
-It uses the built-in [`ResizeObserver`](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver) from the browser.
+<br>
 
 ## Install the library
 
@@ -61,3 +62,10 @@ class MyComponent {
 ```html
 <div (resized)="onResized($event)"></div>
 ```
+<br>
+  
+## Browser Compatibility
+
+It uses the built-in [`ResizeObserver`](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver) from the browser.
+
+![browser-compatibility-resize-observer.png](https://raw.githubusercontent.com/Mikael-Sundstrom/angular-utils/master/src/assets/images/browser-compatibility-resize-observer.png)

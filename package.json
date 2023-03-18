@@ -1,13 +1,11 @@
 {
 	"name": "angular-utils",
 	"version": "1.0.0",
+	"license": "MIT",
 	"scripts": {
-		"ng": "ng",
 		"start": "ng serve",
-		"build": "ng build --base-href='https://mikael-sundstrom.github.io/angular-utils/'",
-		"build-resize-observer": "ng-packagr -p ./projects/resize-observer/ng-package.json",
-		"build-prism": "ng-packagr -p ./projects/prism/ng-package.json",
-		"watch": "ng build --watch --configuration docs"
+		"build-github-pages": "ng build --base-href='https://mikael-sundstrom.github.io/angular-utils/' && cd ./dist && cp index.html 404.html",
+		"build-resize-observer": "ng-packagr -p ./projects/resize-observer/ng-package.json"
 	},
 	"homepage": "https://github.com/Mikael-Sundstrom/angular-utils/",
 	"private": true,
