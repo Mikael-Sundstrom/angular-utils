@@ -40,16 +40,16 @@ import { PrismService } from 'src/app/services/prism.service'
 	</div>
 	<div class="row section">
 		<div class="col s12">
-			<p class="flow-text"><img src="./../../../assets/svg-language/npm.svg" alt="svg"> Install package from npm</p>
+			<p class="flow-text"><img src="./assets/svg-language/npm.svg" alt="svg"> Install package from npm</p>
 			<div [innerHTML]="npm"></div>
 			<br>
-			<p class="flow-text"><img src="./../../../assets/svg-language/angular.svg" alt="svg"> app.module.ts</p>
+			<p class="flow-text"><img src="./assets/svg-language/angular.svg" alt="svg"> app.module.ts</p>
 			<div [innerHTML]="appModuleTs"></div>
 			<br>
-			<p class="flow-text"><img src="./../../../assets/svg-language/angular-component.svg" alt="svg"> app.component.ts</p>
+			<p class="flow-text"><img src="./assets/svg-language/angular-component.svg" alt="svg"> app.component.ts</p>
 			<div [innerHTML]="appComponentTs"></div>
 			<br>
-			<p class="flow-text"><img src="./../../../assets/svg-language/html.svg" alt="svg"> app.component.html</p>
+			<p class="flow-text"><img src="./assets/svg-language/html.svg" alt="svg"> app.component.html</p>
 			<div [innerHTML]="appComponentHtml"></div>
 		</div>
 	</div>

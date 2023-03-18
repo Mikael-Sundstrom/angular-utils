@@ -60,7 +60,7 @@ declare const M: any
 })
 export class AppComponent implements OnInit, OnDestroy {
 	title: string = 'Angular Utils'
-	angularTypescript: string = './../assets/images/400x128_angular_typescript.png'
+	angularTypescript: string = './assets/images/400x128_angular_typescript.png'
 
 	navLinks: Array<any> = [
 		{ title: 'Resize Observer', route: 'resize-observer', icon: 'resize', icon_set: 'material-symbols-rounded' },
