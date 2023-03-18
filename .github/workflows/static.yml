@@ -28,6 +28,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: build app
         run: |
+          npm install
           npm run build
   # Single deploy job since we're just deploying
   deploy:
