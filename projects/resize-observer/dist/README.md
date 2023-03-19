@@ -4,6 +4,7 @@
 ![Vulnerabilities]
 [![AngularTypescript]](https://www.github.com/angular/angular)
 ![NpmPeerDependencyVersion]
+
 <br>
 
 ## Install the library
@@ -49,8 +50,8 @@ import { ResizedObserver } from '@mikael-sundstrom/resize-observer';
 @Component({...})
 
 class MyComponent {
-	width: number;
-	height: number;
+	width!: number;
+	height!: number;
 
 	onResized(event: ResizedEvent) {
 		this.width = event.newRect.width;
@@ -70,7 +71,9 @@ class MyComponent {
 It uses the built-in [`ResizeObserver`](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver) from the browser.
 
 ![browser-compatibility-resize-observer.png](https://raw.githubusercontent.com/Mikael-Sundstrom/angular-utils/master/src/assets/images/browser-compatibility-resize-observer.png)
+<br>
 
+This package is based on https://www.npmjs.com/package/angular-resize-event v3.2.0
 
 <!-- Links -->
 [GitHub]: https://img.shields.io/github/license/Mikael-Sundstrom/angular-utils

@@ -3,7 +3,7 @@
 ![GitHubLastCommit]
 ![Website]
 ![W3CValidation]
-<!-- file:projects/resize-observer/dist/resize-observer -->
+<!--  -->
 <br>
 
 # Angular Utils
@@ -13,25 +13,29 @@ An app I use to build npm packages for angular.
 
 ## How To Use
 1. Run `npm install`  
-2. Run `ng serve` for a dev server
+2. Run `ng serve`
 3. Navigate to `http://localhost:4200/`
 
 <br>
 
-# Build
-
-## Github Pages With Actions
-1. `npm run build-github-pages`
-2. Use VS Code source control and commit.
+# Github Pages With Actions
+`npm run build-github-pages`  
+Use VSCode source control and commit.
 
 [Website][Website]
 
 
 <br>
 
-## npm package: `resize-observer`
-Remember to add new version in */projects/resize-observer/package.json* before uploading.  
-Then enter: `npm run build-resize-observer` in bash.
+# Resize Observer Package
+Folder `./projects/resize-observer/`
+## Build
+`npm run build-resize-observer`
+
+## Publish
+`npm run publish-resize-observer`  
+Remember to add new version in *`/projects/resize-observer/package.json`* before uploading.  
+
 
 [README.md][ReadmeResizeObserver]
 

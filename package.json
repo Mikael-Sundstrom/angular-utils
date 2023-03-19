@@ -5,7 +5,8 @@
 	"scripts": {
 		"start": "ng serve",
 		"build-github-pages": "ng build --base-href='https://mikael-sundstrom.github.io/angular-utils/' && cd ./dist && cp index.html 404.html",
-		"build-resize-observer": "ng-packagr -p ./projects/resize-observer/ng-package.json && cd ./projects/resize-observer && npm publish --access public && cd ./../../"
+		"build-resize-observer": "ng-packagr -p ./projects/resize-observer/ng-package.json",
+		"publish-resize-observer": "ng-packagr -p ./projects/resize-observer/ng-package.json && cd ./projects/resize-observer && npm publish --access public && cd ./../../"
 	},
 	"homepage": "https://github.com/Mikael-Sundstrom/angular-utils/",
 	"private": true,
@@ -18,7 +19,7 @@
 		"@angular/platform-browser": "^15.2.2",
 		"@angular/platform-browser-dynamic": "^15.2.2",
 		"@angular/router": "^15.2.2",
-		"@mikael-sundstrom/resize-observer": "1.0.4",
+		"@mikael-sundstrom/resize-observer": "file:projects/resize-observer/dist",
 		"prismjs": "^1.29.0",
 		"rxjs": "~7.8.0",
 		"tslib": "^2.3.0",
