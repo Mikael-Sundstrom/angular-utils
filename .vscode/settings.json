@@ -15,7 +15,7 @@
 		"package-lock.json": false,
 		"angular.json": false,
 		".github": true,
-		".gitignore": true,
+		".gitignore": false,
 		".angular": true,
 		".vscode": true
 	}

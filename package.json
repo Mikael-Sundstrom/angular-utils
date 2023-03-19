@@ -18,7 +18,7 @@
 		"@angular/platform-browser": "^15.2.2",
 		"@angular/platform-browser-dynamic": "^15.2.2",
 		"@angular/router": "^15.2.2",
-		"@mikael-sundstrom/resize-observer": "file:projects/resize-observer/dist/resize-observer",
+		"@mikael-sundstrom/resize-observer": "1.0.4",
 		"prismjs": "^1.29.0",
 		"rxjs": "~7.8.0",
 		"tslib": "^2.3.0",

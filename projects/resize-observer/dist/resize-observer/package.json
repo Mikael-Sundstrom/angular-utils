@@ -1,0 +1,47 @@
+{
+  "name": "@mikael-sundstrom/resize-observer",
+  "version": "1.0.4",
+  "description": "Angular directive to detect changes of an element size.",
+  "keywords": [
+    "Angular",
+    "ResizeObsever",
+    "Resize",
+    "Obsever"
+  ],
+  "peerDependencies": {
+    "@angular/core": ">= 15"
+  },
+  "author": {
+    "name": "Mikael Sundström",
+    "email": "mikaelsundstrom@outlook.com"
+  },
+  "license": "MIT",
+  "homepage": "https://mikael-sundstrom.github.io/angular-utils/resize-observer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mikael-Sundstrom/angular-utils/blob/master/projects/resize-observer/README.md"
+  },
+  "module": "fesm2015/mikael-sundstrom-resize-observer.mjs",
+  "es2020": "fesm2020/mikael-sundstrom-resize-observer.mjs",
+  "esm2020": "esm2020/mikael-sundstrom-resize-observer.mjs",
+  "fesm2020": "fesm2020/mikael-sundstrom-resize-observer.mjs",
+  "fesm2015": "fesm2015/mikael-sundstrom-resize-observer.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/mikael-sundstrom-resize-observer.mjs",
+      "es2020": "./fesm2020/mikael-sundstrom-resize-observer.mjs",
+      "es2015": "./fesm2015/mikael-sundstrom-resize-observer.mjs",
+      "node": "./fesm2015/mikael-sundstrom-resize-observer.mjs",
+      "default": "./fesm2020/mikael-sundstrom-resize-observer.mjs"
+    }
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
